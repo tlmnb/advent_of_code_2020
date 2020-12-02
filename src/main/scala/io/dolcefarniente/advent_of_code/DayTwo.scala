@@ -43,7 +43,7 @@ object DayTwo {
     val policyOneCorrect = passwords.count(PolicyOneValidator.validate)
     println(f"for policy one, $policyOneCorrect correct passwords were found")
     val policyTwoCorrect = passwords.count(PolicyTwoValidator.validate)
-    println(f"for policy one, $policyTwoCorrect correct passwords were found")
+    println(f"for policy two, $policyTwoCorrect correct passwords were found")
   }
 
 }
