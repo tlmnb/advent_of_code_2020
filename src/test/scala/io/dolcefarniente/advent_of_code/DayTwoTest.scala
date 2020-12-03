@@ -14,7 +14,6 @@ class DayTwoTest extends FunSuite {
     assert(PolicyOneValidator.validate("1-3 a: abcde"))
     assert(PolicyOneValidator.validate("2-9 c: ccccccccc"))
     assert(!PolicyOneValidator.validate("1-3 b: cdefg"))
-
   }
 
 }
