@@ -9,7 +9,7 @@ trait PasswordPolicyValidator {
   def validate(pwd: String): Boolean = {
     pwd match {
       case pwdRegex(min, max, letter, p) => policy(min.toInt, max.toInt, letter(0), p)
-      case _ => false
+      case _ => throw new IllegalArgumentException(f"could not parse password")
     }
   }
 

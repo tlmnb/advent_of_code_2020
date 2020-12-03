@@ -4,7 +4,8 @@ import org.scalatest.FunSuite
 
 class DayThreeTest extends FunSuite {
 
-  private val map = ("..##.......\n" +
+  private val map = (
+    "..##.......\n" +
     "#...#...#..\n" +
     ".#....#..#.\n" +
     "..#.#...#.#\n" +

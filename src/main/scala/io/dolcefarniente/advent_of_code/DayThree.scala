@@ -5,7 +5,7 @@ import scala.io.Source
 
 object DayThree {
 
-  def countTrees(baseMap: List[List[Char]], right: Int, down: Int = 1): Int = {
+  def countTrees(baseMap: Seq[Seq[Char]], right: Int, down: Int = 1): Int = {
     (baseMap.indices by down).map(i => {
       val next = ((i / down) * right) % baseMap(i).length
       baseMap(i)(next)
