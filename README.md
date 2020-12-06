@@ -6,3 +6,4 @@
 - [Day 3](https://github.com/tlmnb/advent_of_code_2020/blob/main/src/main/scala/io/dolcefarniente/advent_of_code/DayThree.scala)
 - [Day 4](https://github.com/tlmnb/advent_of_code_2020/blob/main/src/main/scala/io/dolcefarniente/advent_of_code/DayFour.scala)
 - [Day 5](https://github.com/tlmnb/advent_of_code_2020/blob/main/src/main/scala/io/dolcefarniente/advent_of_code/DayFive.scala)
+- [Day 6](https://github.com/tlmnb/advent_of_code_2020/blob/main/src/main/scala/io/dolcefarniente/advent_of_code/DaySix.scala)
